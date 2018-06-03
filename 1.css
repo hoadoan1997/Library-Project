@@ -1,0 +1,108 @@
+*{margin: 0; padding: 0;} 
+
+.logo-nho{
+	height:50px;
+	width: 200px;
+}
+.navbar.navbar-light.menutop{
+	background-color: transparent;
+
+}
+.navbar-light.menutop ul a.nav-link{
+	color: #c6c6c6;
+	padding: 39px 0px 15px 15px;
+	font-weight: 500;
+	font-family: 'Pridi', serif;
+	font-size: 16px;
+}
+.navbar-light.menutop ul a.nav-link:hover{
+	color: white;
+}
+img.logo-nho {
+    margin-top: 25px;
+}
+a.btn.btn-outline-secondary.nutxem:hover {
+    background: white;
+    color: black;
+}
+a.btn.btn-outline-secondary.nutxem {
+    border: 3px solid white;
+    border-radius: 0px;
+}
+.khoitext h2.display-4 {
+    font-size: 40px;
+    padding-top: 90px;
+} 
+.khoitext p {
+    font-size: 17px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    display: block;
+} 
+.khongkhoangtrong [class*='col-']{
+	padding-left: 0;
+	padding-right: 0;
+
+}
+.khongkhongtrong.media {
+    margin-right: 30px;
+} 
+.noidung {
+    background: #e7e7e7;
+    padding-bottom: 50px
+} 
+.media {
+    background: white;
+    margin-right: 15px;
+    border-bottom: 1px solid gray;
+}
+.phantext h4 {
+    padding-top: 10px;
+} 
+
+.col-sm-8.phantext {margin-left: 10px;}
+.footer{
+	margin-top: 60px;
+}
+@media (max-width: 575px){
+	.navbar.navbar-light.menutop{
+	background-color: #3b5163;
+	}
+	.menutop a.navbar-brand{
+		padding-top: 0px;
+	}
+	img.logo-nho{
+		height: 27px
+	}
+	.navbar-light.menutop ul a.nav-link{
+	color: white;
+	padding: 5px 0px 0px 0px;
+	font-weight: 500;
+	font-family: 'Pridi', serif;
+	font-size: 16px;
+	text-align: center;
+	
+	}
+}
+.main{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+img.hinh{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 700px;
+	
+}
+.den{
+	position: absolute;
+	background-color: #6969697d;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 700px;
+	z-index: 2;
+}
+
